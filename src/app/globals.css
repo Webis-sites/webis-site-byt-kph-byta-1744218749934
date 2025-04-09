@@ -9,7 +9,16 @@
       --background-end-rgb: 255, 255, 255;
       --primary-color: #FFEEAD;
       --secondary-color: #96CEB4;
-    }
+    
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --highlight-color: rgba(255, 255, 255, 0.8);
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --neumorphic-flat: 5px 5px 10px var(--shadow-color), -5px -5px 10px var(--highlight-color);
+  --neumorphic-pressed: inset 2px 2px 5px var(--shadow-color), inset -2px -2px 5px var(--highlight-color);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  --transition-speed: 0.3s;
+}
 
     html {
       scroll-behavior: smooth;
