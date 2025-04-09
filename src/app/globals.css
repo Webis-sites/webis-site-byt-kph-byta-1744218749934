@@ -18,6 +18,15 @@
   --neumorphic-pressed: inset 2px 2px 5px var(--shadow-color), inset -2px -2px 5px var(--highlight-color);
   --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
   --transition-speed: 0.3s;
+
+  --neumorphic-light: rgba(255, 255, 255, 0.5);
+  --neumorphic-shadow: rgba(0, 0, 0, 0.05);
+  --font-family-hebrew: 'Heebo', sans-serif;
+  --border-radius-lg: 1.5rem;
+  --border-radius-md: 1rem;
+  --border-radius-sm: 0.5rem;
+  --neumorphic-shadow-inset: inset 2px 2px 5px var(--neumorphic-shadow), inset -2px -2px 5px var(--neumorphic-light);
+  --neumorphic-shadow-outset: 5px 5px 10px var(--neumorphic-shadow), -5px -5px 10px var(--neumorphic-light);
 }
 
     html {
