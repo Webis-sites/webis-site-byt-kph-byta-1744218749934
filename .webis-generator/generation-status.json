@@ -1,8 +1,11 @@
 {
-  "projectName": "בית-קפה-ביתא-8749",
-  "businessName": "בית קפה ביתא",
-  "created": "2025-04-09T17:12:30.016Z",
-  "status": "initialized",
-  "progress": 0,
-  "components": []
+  "timestamp": "2025-04-09T17:12:53.306Z",
+  "status": {
+    "totalComponents": 0,
+    "completedComponents": 0,
+    "failedComponents": 0,
+    "progress": 0
+  },
+  "components": [],
+  "repoName": "webis-site-byt-kph-byta-1744218749934"
 }
