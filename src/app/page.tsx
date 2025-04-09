@@ -3,6 +3,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Layout from '../components/Layout';
+import HeroSection from '../components/HeroSection';
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
         {/* כאן יתווספו הקומפוננטות שייווצרו על ידי המחולל */}
         <Navbar />
     <Layout />
+    <HeroSection />
   </main>
       
       <footer className="py-6 bg-gray-100 dark:bg-gray-800">
