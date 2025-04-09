@@ -1,11 +1,42 @@
 {
-  "timestamp": "2025-04-09T17:12:53.306Z",
+  "timestamp": "2025-04-09T17:13:53.269Z",
   "status": {
-    "totalComponents": 0,
+    "totalComponents": 5,
     "completedComponents": 0,
     "failedComponents": 0,
     "progress": 0
   },
-  "components": [],
+  "components": [
+    {
+      "name": "Navbar",
+      "type": "navigation",
+      "status": "pending",
+      "description": "RTL responsive navigation bar with logo and menu"
+    },
+    {
+      "name": "Layout",
+      "type": "layout",
+      "status": "pending",
+      "description": "Main layout component with RTL configuration"
+    },
+    {
+      "name": "HeroSection",
+      "type": "hero",
+      "status": "pending",
+      "description": "RTL hero section with headline, description, and CTA for a Hebrew coffee shop"
+    },
+    {
+      "name": "ServicesSection",
+      "type": "services",
+      "status": "pending",
+      "description": "Showcase of coffee shop services with visual elements"
+    },
+    {
+      "name": "AboutSection",
+      "type": "about",
+      "status": "pending",
+      "description": "Story and values of the coffee shop with visual elements"
+    }
+  ],
   "repoName": "webis-site-byt-kph-byta-1744218749934"
 }
